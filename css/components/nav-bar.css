@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 525px;
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
@@ -15,28 +15,12 @@
   position: relative;
   color: #2f363e;
 }
-.nav__notification {
-  background-color: #ff612a;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
+.nav__notification--chats {
   position: absolute;
   left: 21px;
   bottom: 18px;
 }
-.nav__notice {
-  background-color: #ff612a;
-  width: 7px;
-  height: 7px;
-  border-radius: 3.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav__notification--more {
   position: absolute;
   left: 35px;
   bottom: 26px;
